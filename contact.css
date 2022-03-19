@@ -1,0 +1,61 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-size: 1920px 1080px;
+    background-image: url("abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg");
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    /*background-color: #FCE38A;*/
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    /*background-color: #EAFFD0;*/
+}
+h3{
+    text-align: center;
+    font-family: Aclonica;
+    font-weight: normal;
+}
+h5{
+    text-align: center;
+    font-family: Aclonica;
+    font-weight: normal;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+
+/* (2) Class Selector */
+p{
+    text-align: center;     
+}
+
+/* (3) Id Selector */
+#th-Details{
+    text-align: left;
+}
+ 
+/* div */
+.top-container{
+    background-size : 1500px 240px auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://doy2mn9upadnk.cloudfront.net/uploads/default/optimized/4X/0/8/f/08f04819c687b31b954595d766ca21ef84c918a6_2_650x265.png");
+}
+.table-menu td:hover{
+    background-size : 600px 240px auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.gifer.com/GmUB.gif");
+}
+.table-content h2{
+    background-color: rgb(255, 127, 127);
+}
+.table-content img:hover{
+    background-color: rgb(17, 146, 233);
+}

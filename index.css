@@ -1,0 +1,70 @@
+/* CSS file --> index.html */
+/* (1) Tag Selector */
+body{
+    background-size: 1920px 1080px;
+    background-image: url("abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg");
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    /*background-color: #FCE38A;*/
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: normal;
+    /*background-color: #EAFFD0;*/
+}
+h3{
+    text-align: center;
+    font-family: Aclonica;
+    font-weight: normal;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+th{
+    width: 33.33%; 
+    vertical-align: top;
+}
+/* (2) Class Selector */
+.p-Aboutme{
+    font-weight: normal; 
+    text-align: justify;
+}
+.p-Name{
+    font-weight: normal;
+}
+.p-Footer{
+    text-align: center;
+}
+.name{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgba(71, 213, 248, 0.795);
+}
+/* (3) Id Selector */
+#th-Details{
+    text-align: left;
+}
+ 
+/* div */
+.top-container{
+    background-size : 1500px 240px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://abrakadabra.fun/uploads/posts/2021-12/1640384435_8-abrakadabra-fun-p-banner-profilya-anime-8.jpg");
+}
+.table-menu td:hover{
+    background-size : 1500px 240px auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/35/e2/7d/35e27dd4cf555db6225600e11e552c7c.gif");
+}
+.table-content h2{
+    background-color: rgb(255, 127, 127);
+}
+.table-content img:hover{
+    background-color: rgb(17, 146, 233);
+}

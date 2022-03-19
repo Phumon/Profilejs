@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Phumon.Profile</title>
+    <!--Reference Google Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica'rel='stylesheet'>
+    <!--Reference Social Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+ 
+    <!--External CSS => 3rd Priority-->
+    <link rel="stylesheet" href="index.css">
+ 
+    <!--Add Favicon Icon => https://www.favicon.cc/-->
+    <link rel="icon" href="favicon.ico">
+ 
+    <!--Internal CSS => 2nd Priority-->
+    <!--<style>
+        /* CSS Comments */
+        /* CSS Syntax => Selector { property: value; } */
+        /* (1) Tag Selector */
+    </style>-->
+ 
+</head>
+<body>
+    <!--Header-->
+    <!--Inline CSS => 1st Priority-->
+    <!--The Content Division element-->
+    <div class="top-container">
+    <h1><span class="name">Profile</span></h1>
+    <h2> <span class="name">1640900674 ภูมน โกมุก <br><br></span></h2> 
+    <h3><i><span class="name">"คนดีชอบแก้ไข คนอย่างเราไงชอบแค่เธอ"</span><br><br></i></h3>    
+    </div>  
+    <hr>
+ 
+    <!--Menu-->
+    <div class="table-menu">
+    <table>
+        <tr>
+            <td>
+                <h3><a href="index.html">Profile</a></h3>
+            </td>
+            <td>
+                <h3><a href="experiences.html">Experiences</a></h3>
+            </td>
+            <td>
+                <h3><a href="abilities.html">Abilities</a></h3>
+            </td>
+            <td>
+                <h3><a href="projects.html">Projects</a></h3>
+            </td>
+            <td>
+                <h3><a href="contact.html">Contact</a></h3>
+            </td>
+        </tr>
+    </table> 
+    </div>
+     
+    <hr>
+    <div class="table-content">
+    <table>
+        <tr>
+            <th><h2 >About me</h2>
+                <p class="p-Aboutme">   
+                    เรื่องกินไม่เคยแพ้ใคร แต่เรื่องหัวใจทำไมแพ้เธอ <br><br>
+                </p>
+                <p>Website: <a href="https://www.youtube.com/">Youtube.com</a></p>
+                <p>Email: <a href="phumonkomook@gmail.com">phumonkomook@gmail.com</a></p>
+            </th>
+            <th>
+                <!--Crop Circle Image: https://crop-circle.imageonline.co/-->   
+
+                <!--จากบรรทัดที่ 74 id ="Great" จะเป็นเหมือนการกำหนดว่าเรากำลังลงรูปอยู่ใน id ที่ชื่อว่า Great-->            
+                <img id="Great" src="cc_pp.png" style="width: 60%" />
+                <br>
+                <!--จากบรรทัดที่ 77 และ 78 onclick="document.getElementById('Great') จะเป็นการสั่งว่า เมื่อกดปุ่มที่สร้างขึ้นจะเป็นการเรียกใช้ id Great มาเปลี่ยนเป็นรูปภาพตามที่กำหนดไว้-->
+                <button onclick="document.getElementById('Great').src='pp.jpg'">square frame</button>
+                <button onclick="document.getElementById('Great').src='cc_pp.png'">circle frame</button>
+
+                <!--<p><img src="cc_pp.png" alt="Great" style="width: 60%;"></p>-->
+            </th>
+            <th id="th-Details"><h2>Details</h2>
+                <p>Name:</p>
+                    <p class="p-Name">Phumon Komook</p>
+                <p>Location:</p>
+                    <p class="p-Name">Thailand</p>
+                    <p>Social Media:</p>
+                    <p><a href="https://www.youtube.com/watch?v=ao3VHQLcrRI&ab_channel=marr" class="fa fa-youtube" style="font-size: 40px; color: red;"></a>
+                        <a href="https://www.facebook.com/phumon.komook/" class="fa fa-facebook-square" style="font-size: 40px; color: rgb(7, 114, 255);"></a>
+                        <a href="https://www.instagram.com/phumonkomook/" class="fa fa-instagram" style="font-size: 40px; color: brown;"></a>
+                    </p>
+            </th>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <p class="p-Footer">© 2021 Phumon Komook</p>
+</body>
+</html>
